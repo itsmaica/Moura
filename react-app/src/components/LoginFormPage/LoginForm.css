@@ -1,0 +1,51 @@
+#login-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    height: 25em;
+    width: 35em;
+    background-color: white;
+}
+
+#loginform-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lf-header-and-tagline{
+    border: green 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 6em;
+    width: 100%;
+}
+
+
+#lf-input-container{
+    border: greenyellow 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    height: 12em;
+    width: 100%;
+
+}
+
+#lf-moura{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4em;
+    color: #B92B27;
+}
+
+#lf-tagline{
+    color: #636466;
+    font-size: .8em;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,9 +1,10 @@
+import './SplashPage.css'
 function SplashPage(){
     return(
         <>
-            <div>
+            {/* <div className='div-bkg-img'>
                 <h1>Hello Maica!</h1>
-            </div>
+            </div> */}
         </>
     )
 }
