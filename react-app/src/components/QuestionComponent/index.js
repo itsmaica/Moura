@@ -5,9 +5,9 @@ return(
     <>
         <h1>Welcome from the question component. Like a post basically.</h1>
         <div id='question-container'>
-            <div id='user-section'>
-                <div>
-                    <img />
+            <div id='q-user-section'>
+                <div id='q-user-prof-pic-container'>
+                    <img id='q-user-prof-pic' src='https://assets.morningconsult.com/wp-uploads/2022/09/30112634/sidney-crosby-penguins-scaled.jpg' alt='user profile'/>
                 </div>
                 <div>
                     <p>User Name</p>

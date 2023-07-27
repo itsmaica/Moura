@@ -1,3 +1,32 @@
-#questions-container{
+#question-container{
     border: red solid 1px;
+
+    height: 10em;
+    width: 50vw;
+}
+
+#q-user-section{
+    border: green solid 1px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 5em;
+    width: 50vw;
+}
+
+
+#q-user-prof-pic-container{
+
+    border: blue solid 1px;
+
+    height: 50px;
+    width: 50px;
+}
+
+
+#q-user-prof-pic{
+    height: 100%;
+    width: 100%;
 }
