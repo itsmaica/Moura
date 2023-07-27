@@ -21,6 +21,17 @@ function LoginFormPage() {
     }
   };
 
+  // Demo User Login
+  const demoUser = (e) => {
+    e.preventDefault();
+    const email = "demo@aa.io"
+    const password = "password"
+
+    const data = dispatch(login(email,password));
+
+    if (data) setErrors(data)
+  }
+
   return (
     <>
       <div className="div-background-img" id="loginform-container">
@@ -40,7 +51,7 @@ function LoginFormPage() {
 
             <div id="lf-divider-line"></div>
 
-            <ul>
+            <ul className='errors'>
               {errors.map((error, idx) => (
                 <li key={idx}>{error}</li>
               ))}
@@ -63,9 +74,10 @@ function LoginFormPage() {
             />
 
             <div id="lf-button-cont">
-              <button id='demo-button'>Demo User</button>
-              <button type="submit">Login</button>
+              <button disabled={!password || !email} id='login-button' type="submit">Login</button>
+              {/* <button onClick={demoUser} id='demo-button'>Demo User</button> */}
 
+              <button id='demo-button'>Demo User</button>
 
             </div>
           </div>

@@ -30,7 +30,7 @@
 
 
 #lf-input-container{
-    border: greenyellow 1px solid;
+    /* border: greenyellow 1px solid; */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -52,12 +52,12 @@
 
 #lf-tagline{
     color: #636466;
-    font-size: .8em;
+    font-size: .90em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #lf-divider-line{
-    height: .5px;
+    height: 1px;
     background-color: #DEE0E1;
     width: 100%;
 }
@@ -70,40 +70,54 @@
     top: 6;
 }
 
+#login-form input:focus{
+    border: #3269FF 1px solid;
+}
+
 #login-form input::placeholder{
     color: #95979A;
-    padding-left: .5em;
+    padding-left: 1em;
 }
 
 #lf-button-cont{
-    border: pink 1px solid;
+    /* border: pink 1px solid; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    font-weight: bold;
 }
 
-#login-form button{
-    background-color: #91B7FF;
+#login-button{
+    background-color: #3269FF;
     height: 3em;
-    width: 5em;
+    width: 6em;
+    border: none;
+    border-radius: 3em;
+    color: white;
+    cursor: pointer;
+}
+
+#login-button:disabled{
+    background-color: #91B7FF;
+    cursor: default;
+}
+/* Active button color when not disables Dark Blue! #3269FF */
+/* #login-form button:hover{
+    cursor: pointer;
+} */
+
+#demo-button{
+    background-color: #A7C122;
+    height: 3em;
+    width: 7em;
     border: none;
     border-radius: 3em;
     color: white;
 
-    position: relative;
-    /* right: 0; */
-    left: 0;
-    /* bottom: 0; */
-
 }
 
-/* Active button color when not disables Dark Blue! #3269FF */
-#login-form button:hover{
+#demo-button:hover{
+    background-color: #4B9E28;
     cursor: pointer;
-}
-
-#login-form#demo-button{
-    background-color: green;
-    color: black;
 }

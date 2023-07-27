@@ -2,9 +2,9 @@ import './SplashPage.css'
 function SplashPage(){
     return(
         <>
-            {/* <div className='div-bkg-img'>
+            <div className='div-bkg-img'>
                 <h1>Hello Maica!</h1>
-            </div> */}
+            </div>
         </>
     )
 }
