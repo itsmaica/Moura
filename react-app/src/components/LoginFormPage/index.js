@@ -36,6 +36,8 @@ function LoginFormPage() {
           <div id='lf-input-container'>
             <p>Login</p>
 
+            <div id='lf-divider-line'></div>
+
             <ul>
               {errors.map((error, idx) => (
                 <li key={idx}>{error}</li>
@@ -43,23 +45,27 @@ function LoginFormPage() {
             </ul>
             <label>
               Email
+            </label>
               <input
                 type="text"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
               />
-            </label>
             <label>
               Password
+            </label>
               <input
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
               />
-            </label>
-            <button type="submit">Log In</button>
+
+              <div id='lf-button-cont'>
+
+                <button type="submit">Login</button>
+              </div>
           </div>
 
         </form>
