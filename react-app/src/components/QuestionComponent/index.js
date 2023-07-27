@@ -29,7 +29,22 @@ return(
 
             </div>
 
-            <div id='p-votess-comments'>
+            <div id='p-votes-comments'>
+
+                <div id='vote-buttons'>
+                    <button id='upvote'>
+                        <i class="fa-regular fa-circle-up"/>
+                    </button>
+                    <button id='downvote'>
+                        <i class="fa-regular fa-circle-down"/>
+                    </button>
+                </div>
+
+                <div id='p-comments'>
+
+                    <i class="fa-regular fa-comment"/>
+                    <p>8</p>
+                </div>
 
             </div>
 
