@@ -30,7 +30,7 @@
 
 
 #lf-input-container{
-    /* border: greenyellow 1px solid; */
+    border: greenyellow 1px solid;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -70,9 +70,15 @@
     top: 6;
 }
 
+#login-form input::placeholder{
+    color: #95979A;
+    padding-left: .5em;
+}
+
 #lf-button-cont{
+    border: pink 1px solid;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
@@ -92,6 +98,12 @@
 
 }
 
+/* Active button color when not disables Dark Blue! #3269FF */
 #login-form button:hover{
     cursor: pointer;
+}
+
+#login-form#demo-button{
+    background-color: green;
+    color: black;
 }
