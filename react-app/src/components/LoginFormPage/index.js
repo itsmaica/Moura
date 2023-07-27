@@ -51,11 +51,11 @@ function LoginFormPage() {
 
             <div id="lf-divider-line"></div>
 
-            <ul className="errors">
+            {/* <ul className="errors">
               {errors.map((error, idx) => (
                 <li key={idx}>{error}</li>
               ))}
-            </ul>
+            </ul> */}
             <label>Email</label>
             <input
               placeholder="Your email"
@@ -81,9 +81,9 @@ function LoginFormPage() {
               >
                 Login
               </button>
-              {/* <button onClick={demoUser} id='demo-button'>Demo User</button> */}
+              <button onClick={demoUser} id='demo-button'>Demo User</button>
 
-              <button id="demo-button">Demo User</button>
+              {/* <button id="demo-button">Demo User</button> */}
             </div>
           </div>
 
