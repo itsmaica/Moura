@@ -6,7 +6,9 @@ import LoginFormPage from "./components/LoginFormPage";
 import { authenticate } from "./store/session";
 import Navigation from "./components/Navigation";
 import SplashPage from "./components/SplashPage/index"
-import QuestionComponent from "./components/QuestionComponent";
+import PostComponent from "./components/PostComponent";
+import Feed from "./components/Feed";
+import PostForm from "./components/PostForm";
 
 function App() {
   const dispatch = useDispatch();
@@ -22,7 +24,10 @@ function App() {
         <Switch>
           <Route exact path="/test">
             {/* <SplashPage/> */}
-            <QuestionComponent />
+            {/* <PostComponent /> */}
+            <PostForm />
+            {/* <Feed/> */}
+
           </Route>
 
           <Route path="/login" >

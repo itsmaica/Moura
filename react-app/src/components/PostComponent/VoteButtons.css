@@ -1,0 +1,53 @@
+#upvote,
+#downvote{
+    color: #636466;
+    width: 3.5em;
+    height: 1.75em;
+    background-color: #F8F8F8;
+    border: #DEE0E1 1px solid;
+}
+
+#upvote:hover,
+#downvote:hover{
+    cursor: pointer;
+    background-color: #DEE0E1;
+}
+
+
+.fa-regular.fa-circle-up,
+.fa-regular.fa-circle-down{
+    /* background-color: pink; */
+
+    /* background-color: white; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: grey; */
+    /* background-color: none; */
+
+    /* width: 3.5em;
+    height: 1.75em; */
+}
+
+
+
+#upvote{
+    margin-left: 1em;
+
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+#downvote{
+    margin-right: 1em;
+
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
+
+
+.fa-regular.fa-comment{
+    color: #636466;
+}
