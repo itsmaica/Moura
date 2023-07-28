@@ -33,16 +33,16 @@ return(
 
                 <div id='vote-buttons'>
                     <button id='upvote'>
-                        <i class="fa-regular fa-circle-up"/>
+                        <i className="fa-regular fa-circle-up"/>
                     </button>
                     <button id='downvote'>
-                        <i class="fa-regular fa-circle-down"/>
+                        <i className="fa-regular fa-circle-down"/>
                     </button>
                 </div>
 
                 <div id='p-comments'>
 
-                    <i class="fa-regular fa-comment"/>
+                    <i className="fa-regular fa-comment"/>
                     <p>8</p>
                 </div>
 

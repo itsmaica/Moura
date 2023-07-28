@@ -1,3 +1,6 @@
+
+@import './VoteButtons.css';
+
 #post-container {
     display: flex;
     justify-content: space-between;
@@ -51,6 +54,8 @@
     flex-direction: column;
 
     height: 3em;
+    width: 100%;
+    overflow: auto;
 
     font-size: 0.85em;
 }
@@ -92,5 +97,25 @@
 
 #p-comments{
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+
+    color: #636466;
+
+    /* background-color: green; */
+    width: 3.5em;
+    height: 1.75em;
+
+    border-radius: 50%;
+
+}
+
+#p-comments:hover{
+    background-color: #DEE0E1;
+    cursor: pointer;
+}
+
+#p-comments p{
+    font-size: .8em;
+    margin-left: .45em;
 }
