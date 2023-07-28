@@ -1,12 +1,14 @@
 @import './VoteButtons.css';
 
 #post-container {
+    border: #DEE0E1 solid 1px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
 
-    border: #DEE0E1 solid 1px;
+    background-color: white;
     font-family: "Roboto", sans-serif;
     height: 12.5em;
     width: 48vw;

@@ -30,6 +30,11 @@ function App() {
 
           </Route>
 
+
+          <Route path='/'>
+            <Feed />
+          </Route>
+
           <Route path="/login" >
             <LoginFormPage />
           </Route>
