@@ -8,6 +8,7 @@ import Navigation from "./components/Navigation";
 import SplashPage from "./components/SplashPage/index"
 import PostComponent from "./components/PostComponent";
 import Feed from "./components/Feed";
+import PostForm from "./components/PostForm";
 
 function App() {
   const dispatch = useDispatch();
@@ -24,7 +25,8 @@ function App() {
           <Route exact path="/test">
             {/* <SplashPage/> */}
             {/* <PostComponent /> */}
-            <Feed/>
+            <PostForm />
+            {/* <Feed/> */}
 
           </Route>
 

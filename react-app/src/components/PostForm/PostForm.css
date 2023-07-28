@@ -1,0 +1,41 @@
+@import './PFUserProfilePic.css';
+@import './PFButtons.css';
+
+#pf-container{
+    border: #DEE0E1 solid 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 4.5em;
+    width: 48vw;
+
+    font-family: "Roboto", sans-serif;
+}
+
+
+#pf-top-cont{
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 48vw;
+    height: 2em;
+
+    color: #939598;
+}
+
+#pf-bottom-cont{
+    /* border: green solid 1px; */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 48vw;
+    height: 2em;
+}

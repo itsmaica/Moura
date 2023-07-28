@@ -1,0 +1,60 @@
+
+#pf-ask-share-button{
+    background-color: #F7F7F8;
+    color: #939598;
+    border: #DEE0E1 1px solid;
+    border-radius: 5em;
+    height: 2em;
+    width: 36.75em;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-left: .5em;
+}
+
+#pf-ask-share-button:hover{
+    cursor: pointer;
+    background-color: #DEE0E1;
+}
+
+#pf-bottom-cont button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    color: #636466;
+
+    border-radius: 5em;
+    border: none;
+
+    width: 12.85em;
+    height: 2em;
+
+
+}
+
+#pf-bottom-cont{
+    color: #939598;
+}
+
+#pf-bottom-cont span{
+    /* font-size: 2px; */
+    color: #939598;
+}
+
+
+#pf-bottom-cont button:hover{
+    cursor: pointer;
+    background-color: #F7F7F8;
+
+    background-color: none;
+
+    border-radius: 5em;
+    border: none;
+
+    width: 12.85em;
+    height: 2em;
+}
