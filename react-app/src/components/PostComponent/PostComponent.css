@@ -1,4 +1,3 @@
-
 @import './VoteButtons.css';
 
 #post-container {
@@ -7,14 +6,14 @@
     align-items: center;
     flex-direction: column;
 
-    border: red solid 1px;
+    border: #DEE0E1 solid 1px;
     font-family: "Roboto", sans-serif;
-    height: 15em;
+    height: 12.5em;
     width: 48vw;
 }
 
 #p-user-section {
-    border: green solid 1px;
+    /* border: green solid 1px; */
 
     display: flex;
     justify-content: flex-start;
@@ -30,7 +29,7 @@
 }
 
 #p-user-prof-pic-container {
-    border: blue solid 1px;
+    /* border: blue solid 1px; */
 
     height: 2.5em;
     width: 2.5em;
@@ -69,7 +68,7 @@
 }
 
 #p-content-container {
-    border: pink solid 1px;
+    /* border: pink solid 1px; */
 
     display: flex;
     justify-content: space-evenly;
@@ -89,7 +88,7 @@
     justify-content: flex-start;
     align-items: center;
 
-    border: green solid 1px;
+    /* border: green solid 1px; */
     height: 2.7em;
     width: 100%;
 }
